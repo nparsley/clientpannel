@@ -18,6 +18,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 import { ClientService } from './services/client.service';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase, 'clientpannel'),
     AngularFirestoreModule,
-   
+    FormsModule
 
   ],
   providers: [ClientService],
