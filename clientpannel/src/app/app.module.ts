@@ -19,6 +19,7 @@ import { environment } from 'src/environments/environment';
 import { ClientService } from './services/client.service';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { FormsModule } from '@angular/forms';
+import { FlashMessagesModule } from 'angular2-flash-messages';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase, 'clientpannel'),
     AngularFirestoreModule,
-    FormsModule
+    FormsModule,
+    FlashMessagesModule.forRoot(),
 
   ],
   providers: [ClientService],

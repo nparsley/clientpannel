@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class ClientService {
   clientsCollection: AngularFirestoreCollection<Client>;
-  clietnDoc: AngularFirestoreDocument<Client>;
+  clientDoc: AngularFirestoreDocument<Client>;
   clients: Observable<Client[]>;
   client: Observable<Client>;
 
@@ -29,6 +29,10 @@ export class ClientService {
     }));
 
     return this.clients;
+  }
+
+  newClient(client: Client) {
+    this.clientsCollection.add(client);
   }
 
 
