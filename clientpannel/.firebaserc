@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clientpannel-9ffbc": {
+      "hosting": {
+        "clientpannel": [
+          "clientpannel-9ffbc"
+        ]
+      }
+    }
+  }
+}
