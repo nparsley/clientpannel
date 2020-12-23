@@ -1,7 +1,7 @@
 # OVERVIEW
 
 * Client management application built with Angular and using firebase.
-* Visit the site here: <a href="https://clientpannel-9ffbc.web.app/login">ClientPanel</a>
+* Visit the site here: <a href="https://clientpannel-9ffbc.web.app/">ClientPanel</a>
 
 <img src='/clientpannel/src/assets/login.PNG'>
 
@@ -16,3 +16,6 @@
 * The user can adjust accessibility settings for each account.
 
 <img src='/clientpannel/src/assets/usersettings.PNG'>
+
+
+https://clientpannel-9ffbc.web.app/login
