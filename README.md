@@ -11,7 +11,7 @@
 
 * A current list of clients and their balances will be displayed with the option to edit.
 
-<img src='/clientpannel/src/assets/edit1.PNG'>
+<img src='/clientpannel/src/assets/clientedit1.PNG'>
 
 * The user can adjust accessibility settings for each account.
 
