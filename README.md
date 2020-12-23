@@ -16,6 +16,3 @@
 * The user can adjust accessibility settings for each account.
 
 <img src='/clientpannel/src/assets/usersettings.PNG'>
-
-
-https://clientpannel-9ffbc.web.app/login
